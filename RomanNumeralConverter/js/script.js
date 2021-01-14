@@ -9,6 +9,7 @@ function displayResult()
     else
     {
       alert("Please enter a value (n>0) in textfield");
+      document.getElementById("result").innerHTML = "Result:";
     }
 }
 

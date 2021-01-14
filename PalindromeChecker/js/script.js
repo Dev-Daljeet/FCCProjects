@@ -6,6 +6,7 @@ function displayResult()
     if(str == "")
     {
         alert("Please enter a value in textfield");
+        result.innerHTML = "Result:";
     }
     else
     {

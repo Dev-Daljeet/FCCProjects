@@ -9,6 +9,7 @@ function displayResult()
     else
     {
         alert("Please enter a value in textfield");
+        document.getElementById("result").innerHTML = "Decoded String:";
     }
 }
 
