@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caesar Cipher</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Covered+By+Your+Grace" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="all" href="../css/style.css">
+</head>
+<body>
+    
+<div class="page">
+
+<header>
+<h1>Caesar Cipher</h1>
+</header>
+
+<h2>Decode ROT13 Cipher text</h2>
+
+<!--Definition of Caesar Cipher-->
+<details>
+    <summary>What is Caesar Cipher?</summary>
+    <p>One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the 
+        meanings of the letters are shifted by some set amount. A common modern use is the ROT13 cipher, where the values of the 
+        letters are shifted by 13 places. Thus 'A' ↔ 'N', 'B' ↔ 'O' and so on.. </p>
+</details>
+
+<!--Input form-->
+<div class="form-style">
+    <input type="text" id="inputText" placeholder="Enter your text" autofocus>
+    <button onclick="displayResult()">Decipher</button>
+</div>
+
+<!--Result-->
+<div class="box">
+    <p id="result">Decoded String:</p>
+</div>
+
+<a class="button" href="../index.html">Back to home page</a>
+
+</div>
+<script src="js/script.js">
+</script>
+</body>
+</html>
